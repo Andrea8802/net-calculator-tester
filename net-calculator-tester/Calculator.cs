@@ -36,7 +36,7 @@ namespace net_calculator_tester
         // Elevamento a potenza
         public static float Eleva(float numBase, float esponente)
         {
-            if (numBase == 0 && esponente == 0)
+            if (numBase == 0 || esponente == 0)
                 return 1;
 
             float risultato = 1;
